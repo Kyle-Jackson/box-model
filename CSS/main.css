@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+/*
+
+Inline: allow other elements beside on the same line Padding, margin, width don't work as expected
+Block: take up one whole line in the browser window
+*/
+
+h1 {
+  background-color: salmon;
+  /* Sart at top and go clockwise: top, right, bottom,, left */
+  padding: 1em 2em 3em 0.5em;
+  margin: 0 1em; /* top/bottom left/right */
+  border: 5px dotted #000;
+  border-radius: 10px;
+  display: in line-block;
+}
+
+a {
+  background-color:lightblue;
+  display: block;
+}
+
+nav {
+  background-color: hotpink;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+}
